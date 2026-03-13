@@ -8,7 +8,7 @@ const Button: React.FC<ButtonProps> = ({ ButtonName }) => {
   return (
     <button style={{
       padding: '10px 20px',
-      fontSize: '18px',
+      fontSize: '16px',
       backgroundColor: '#a6ee6c',
       color: 'white',
       border: 'none',
