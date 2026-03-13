@@ -3,11 +3,11 @@ pipeline {
 
   stages {
 
-    stage('Clone') {
-      steps {
-        git 'https://github.com/Nawab-chandio/react-jenkins.git'
-      }
-    }
+stage('Clone') {
+  steps {
+    git branch: 'main', url: 'https://github.com/Nawab-chandio/react-jenkins.git'
+  }
+}
 
     stage('Install') {
       steps {
