@@ -9,7 +9,7 @@ const Button: React.FC<ButtonProps> = ({ ButtonName }) => {
     <button style={{
       padding: '10px 20px',
       fontSize: '16px',
-      backgroundColor: '#6cabee',
+      backgroundColor: '#a6ee6c',
       color: 'white',
       border: 'none',
       borderRadius: '4px',
